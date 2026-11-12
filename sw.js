@@ -1,6 +1,6 @@
 // Service worker sederhana: menyimpan file halaman pembungkus supaya aplikasi bisa diinstal.
 // Laporan tetap dikirim langsung ke Google (tidak disimpan di sini).
-var CACHE = 'lapor-kebersihan-v1';
+var CACHE = 'lapor-kebersihan-v2';
 var FILES = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png'];
 
 self.addEventListener('install', function (e) {
